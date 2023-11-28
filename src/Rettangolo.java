@@ -1,7 +1,7 @@
 public class Rettangolo extends Forma {
     int base;
     int altezza;
-    public Rettangolo(int dimensione1, int dimensione2) {
+    public Rettangolo(int base, int altezza) {
         super(FormeBidimensionali.RETTANGOLO);
         this.base = base;
         this.altezza = altezza;

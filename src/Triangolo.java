@@ -1,9 +1,7 @@
-import java.text.Normalizer;
-
 public class Triangolo extends Forma {
     int base;
     int altezza;
-    public Triangolo (int dimensione1, int dimensione2){
+    public Triangolo (int base, int altezza){
         super (FormeBidimensionali.TRIANGOLO);
         this.base = base;
         this.altezza = altezza;
@@ -19,6 +17,5 @@ public class Triangolo extends Forma {
     void stampaDettagli() {
         System.out.println("altezza = " + altezza);
         System.out.println("base = " + base);
-
     }
 }
